@@ -3,7 +3,7 @@
 session_start();
 require_once('twitteroauth/twitteroauth.php');
 
-define('CONSUMER_KEY', "'1vuWFUZuGkQHy7RWYGQlYn4Fc');
+define('CONSUMER_KEY', '1vuWFUZuGkQHy7RWYGQlYn4Fc');
 define('CONSUMER_SECRET', 'j2FC0EczJpVrLUWeZHOF53O2SOPjNrvjA4Y0Unlo78jtgiF9io');
 define('access_token', '986097542-78dT3BrMRtwIiav51EfVRjOqtyRz096medJxRkyd');
 define('access_token_secret', 'ysODiEgPpJMqY2zITKPfdsHWx4exqq5d9iik6fzZYzWvr');
