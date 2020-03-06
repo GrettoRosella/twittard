@@ -2,10 +2,10 @@
 
 require_once('twitteroauth/twitteroauth.php');
 
-define('CONSUMER_KEY', 'GANTI CONSUMER KEY LOE');
-define('CONSUMER_SECRET', 'GANTI CONSUMER SECRET LOE');
-define('access_token', 'GANTI ACCESS TOKEN LOE');
-define('access_token_secret', 'GANTI ACCESS TOKEN SECRET LOE');
+define('CONSUMER_KEY', '1vuWFUZuGkQHy7RWYGQlYn4Fc');
+define('CONSUMER_SECRET', 'j2FC0EczJpVrLUWeZHOF53O2SOPjNrvjA4Y0Unlo78jtgiF9io');
+define('access_token', '986097542-78dT3BrMRtwIiav51EfVRjOqtyRz096medJxRkyd');
+define('access_token_secret', 'ysODiEgPpJMqY2zITKPfdsHWx4exqq5d9iik6fzZYzWvr');
 
         $connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, access_token, access_token_secret);
 	        $followers = $connection->get("followers/ids.json?cursor=-1&");
